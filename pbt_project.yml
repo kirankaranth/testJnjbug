@@ -26,6 +26,20 @@ pipelines:
       outputs: []
     subgraphs: []
     dependencies: {}
+  pipelines/newPipeline:
+    name: newPipeline
+    description: ''
+    author: kiranadmin@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: python
+    createdAt: '2023-04-11 05:57:26'
+    modifiedAt: '2023-04-11 05:57:32'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
 datasets: {}
 templates: {}
 jobs: {}
