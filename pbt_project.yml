@@ -1,0 +1,45 @@
+name: testJnjbug
+description: ''
+version: 0.0.1
+author: kiranadmin@prophecy.io
+language: python
+buildSystem: ''
+buildSystemDetails:
+  artefactID: testjnjbug
+  parentArtefactID: kiranadminprophecy.io_team
+  buildSystem: wheel
+  author: null
+  createdAt: '2023-04-11 05:55:55'
+  modifiedAt: '2023-04-11 05:55:55'
+pipelines:
+  pipelines/badPipeline:
+    name: badPipeline
+    description: ''
+    author: kiranadmin@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: python
+    createdAt: '2023-04-11 05:55:55'
+    modifiedAt: '2023-04-11 05:56:01'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+functions:
+  author: null
+  createdAt: '2023-04-11 05:55:55'
+  modifiedAt: '2023-04-11 05:55:55'
+  gems: {}
+  udfs: {}
+  udafs: {}
+  expressions: {}
+subgraphs: {}
+sqlModels: {}
+sqlPipeline: null
+dependencies: '[]'
+projectDependencies: {}
+pipelineConfigurations: {}
